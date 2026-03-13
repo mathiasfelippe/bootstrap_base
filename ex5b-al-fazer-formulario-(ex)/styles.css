@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm92Nnk3aDIyZXRvdjc4dmJkajBrbjdmcTd1Mm9uM2hkdW9vOWV6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ILEkNXMw1ON5s0xaHV/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.custom-form {
+    background:linear-gradient(#002a4f, #0056b3);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.custom-form h1 {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.custom-icon {
+    background-color: #d0e7ff;
+    border-radius: 10px
+}
+
+.custom-input {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.custom-button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #6db4ff;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Remove o fundo cinza padrão do span dentro do botão */
+.custom-button .custom-icon {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+/* colunas ocupam a largura total no card */
+.col-sm-6 {
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.bg-custom {
+    background-color: rgb(141, 255, 96);
+}
+
+.bg-oi { 
+    background-color: rgb(96, 191, 255);
+}
+
+h2 {
+    color: white;
+    cursor:grab;
+}
